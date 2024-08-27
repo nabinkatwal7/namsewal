@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "ambit";
+  src: url("/fonts/Ambit.otf") format("truetype");
+}
+
+.ambit {
+  font-family: "ambit";
+}
+
+body {
+  font-family: "ambit";
+
+  background-color: FFFCEB;
+}
