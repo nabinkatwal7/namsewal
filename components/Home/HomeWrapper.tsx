@@ -1,12 +1,16 @@
 import Carousel from "./Carousel";
+import Contact from "./Contact";
+import Gallery from "./Gallery";
+import Grid from "./Grid";
 
 const HomeWrapper = () => {
   return (
-    <div className="flex h-screen w-screen flex-col gap-4 overflow-x-hidden">
+    <div className="flex w-screen flex-col gap-1 overflow-x-hidden">
       <Carousel />
-      <p>grid</p>
+      <Grid />
       <p>Category</p>
-      <p>Gallery</p>
+      <Gallery />
+      <Contact />
     </div>
   );
 };

@@ -1,6 +1,7 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
+import { FaFacebook, FaInstagram } from "react-icons/fa6";
 
 import { RxHamburgerMenu } from "react-icons/rx";
 
@@ -12,8 +13,8 @@ export const links = [
   },
   {
     id: 2,
-    name: "Gallery",
-    href: "/gallery",
+    name: "Menu",
+    href: "/menu",
   },
   {
     id: 3,
@@ -40,7 +41,14 @@ const Header = () => {
             </Link>
           ))}
         </div>
-        <p className="text-lg">Namsewal Bakery</p>
+        <div className="flex flex-row gap-4 text-xl">
+          <Link href="https://www.facebook.com/namsewalbakery">
+            <FaFacebook />
+          </Link>
+          <Link href="https://www.instagram.com/namsewalbakery/">
+            <FaInstagram />
+          </Link>
+        </div>
       </div>
       <div className="sticky top-0 flex items-center justify-between bg-white/50 p-4 backdrop-blur-sm lg:hidden">
         <Image
