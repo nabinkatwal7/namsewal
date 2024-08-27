@@ -1,5 +1,4 @@
 import Carousel from "./Carousel";
-import Contact from "./Contact";
 import Gallery from "./Gallery";
 import Grid from "./Grid";
 
@@ -10,7 +9,6 @@ const HomeWrapper = () => {
       <Grid />
       <p>Category</p>
       <Gallery />
-      <Contact />
     </div>
   );
 };
