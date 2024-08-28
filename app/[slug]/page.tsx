@@ -39,7 +39,7 @@ const DetailPage = ({ params }: { params: { slug: string } }) => {
               <Link
                 target={"_blank"}
                 href={"https://www.facebook.com/namsewalbakery"}
-                className="flex flex-row items-center gap-2"
+                className="flex flex-row items-center gap-2 rounded-lg px-2 py-1 transition-all duration-300 hover:bg-black hover:text-white"
               >
                 <FaCartShopping />
                 Buy Now
