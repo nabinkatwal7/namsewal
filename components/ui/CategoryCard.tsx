@@ -20,9 +20,10 @@ const CategoryCard = ({ data }: { data: Categories }) => {
             className="size-32 rounded-lg object-cover transition-all duration-300 hover:scale-110"
           />
         </div>
-        <div className="flex flex-col gap-2">
+        <div className="flex flex-col gap-1">
           <p className="text-lg font-bold">{data.name}</p>
           <p>{data.metadescription}</p>
+          <p>Starting from NRS {data.price}</p>
         </div>
       </div>
       <div className="flex flex-row items-center justify-between">

@@ -30,7 +30,12 @@ const DetailPage = ({ params }: { params: { slug: string } }) => {
             </div>
             <p className="text-lg">{cake.name}</p>
             <div className="flex flex-row items-center justify-between gap-2">
-              <p>NRS {cake.price}</p>
+              <div className="flex flex-col">
+                <p>NRS {cake.price} per pound</p>
+                <p className="text-xs italic text-gray-500">
+                  +NRS 300 for additional customizations
+                </p>
+              </div>
               <Link
                 target={"_blank"}
                 href={"https://www.facebook.com/namsewalbakery"}
