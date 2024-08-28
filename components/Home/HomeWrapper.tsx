@@ -1,4 +1,5 @@
 import Carousel from "./Carousel";
+import Category from "./Category";
 import Gallery from "./Gallery";
 import Grid from "./Grid";
 
@@ -7,7 +8,7 @@ const HomeWrapper = () => {
     <div className="flex w-screen flex-col gap-1 overflow-x-hidden">
       <Carousel />
       <Grid />
-      <p>Category</p>
+      <Category />
       <Gallery />
     </div>
   );
