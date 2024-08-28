@@ -3,8 +3,6 @@ import Image from "next/image";
 import Link from "next/link";
 import { FaFacebook, FaInstagram } from "react-icons/fa6";
 
-import { RxHamburgerMenu } from "react-icons/rx";
-
 export const links = [
   {
     id: 1,
@@ -58,9 +56,13 @@ const Header = () => {
           height={80}
           className="size-16 rounded-full"
         />
-        <button className="text-lg">
-          <RxHamburgerMenu />
-        </button>
+        <div className="flex flex-row items-center gap-4 text-sm uppercase">
+          {links?.map((link) => (
+            <Link key={link.id} href={link.href} className="hover:underline">
+              {link.name}
+            </Link>
+          ))}
+        </div>
       </div>
     </>
   );
