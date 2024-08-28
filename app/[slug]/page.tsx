@@ -1,6 +1,8 @@
 import { categories } from "@/data/categoryData";
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
+import { FaCartShopping } from "react-icons/fa6";
 
 const DetailPage = ({ params }: { params: { slug: string } }) => {
   const data = categories.find((data) => data.slug === params.slug);
@@ -27,7 +29,17 @@ const DetailPage = ({ params }: { params: { slug: string } }) => {
               />
             </div>
             <p className="text-lg">{cake.name}</p>
-            <p>NRS {cake.price}</p>
+            <div className="flex flex-row items-center justify-between gap-2">
+              <p>NRS {cake.price}</p>
+              <Link
+                target={"_blank"}
+                href={"https://www.facebook.com/namsewalbakery"}
+                className="flex flex-row items-center gap-2"
+              >
+                <FaCartShopping />
+                Buy Now
+              </Link>
+            </div>
           </div>
         ))}
       </div>
