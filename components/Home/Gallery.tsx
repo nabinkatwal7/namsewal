@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import { FaInstagram } from "react-icons/fa6";
+import { FaFacebook } from "react-icons/fa6";
 
 const images = [
   "/assets/pastries.jpg",
@@ -18,7 +18,7 @@ const images = [
 
 const Gallery = () => {
   return (
-    <div className="grid grid-cols-1 gap-2 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5">
+    <div className="grid grid-cols-1 gap-2 p-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5">
       {images?.map((image) => (
         <div className="relative overflow-hidden" key={image}>
           <Image
@@ -31,11 +31,11 @@ const Gallery = () => {
           {/* eslint-disable-next-line tailwindcss/migration-from-tailwind-2 */}
           <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 opacity-0 transition-opacity duration-300 hover:opacity-100">
             <Link
-              href="https://www.instagram.com/namsewalbakery/"
+              href="https://www.facebook.com/namsewalbakery/"
               target="_blank"
               className="flex flex-col items-center gap-2 text-lg font-semibold text-white"
             >
-              <FaInstagram className="text-xl" />
+              <FaFacebook className="text-xl" />
               Shop Now
             </Link>
           </div>

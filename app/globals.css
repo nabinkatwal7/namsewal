@@ -7,10 +7,28 @@
   src: url("/fonts/Ambit.otf") format("truetype");
 }
 
+@font-face {
+  font-family: "lato";
+  src: url("/fonts/Lato-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "herofont";
+  src: url('/fonts/font.ttf') format('truetype');
+}
+
 .ambit {
   font-family: "ambit";
 }
 
+.lato {
+  font-family: "lato";
+}
+
+.herofont {
+  font-family: "herofont";
+}
+
 body {
-  font-family: "ambit";
+  font-family: "lato";
 }

@@ -13,10 +13,12 @@ const Grid = () => {
           className="h-[400px] w-full transition-all duration-300 hover:scale-110 lg:h-[600px]"
         />
       </div>
-      <div className="flex flex-col content-center items-center justify-center gap-4 p-2">
+      <div className="flex flex-col content-center items-center justify-center gap-4 p-6">
         <p className="text-3xl font-bold">PASTRIES</p>
-        <p>
-          Irresistibly fresh, handcrafted pastries that bring joy to every bite!
+        <p className="text-center">
+          Treat yourself to our freshly baked pastries! From buttery croissants
+          to rich éclairs, every bite is crafted to perfection. Perfect for any
+          time of day—grab one today!
         </p>
       </div>
       <div className="overflow-hidden">
@@ -28,11 +30,13 @@ const Grid = () => {
           className="h-[400px] w-full transition-all duration-300 hover:scale-110 lg:h-[600px]"
         />
       </div>
-      <div className="flex flex-col content-center items-center justify-center gap-4 p-2">
+      <div className="flex flex-col content-center items-center justify-center gap-4 p-6">
         <p className="text-3xl font-bold">FRUIT CAKE</p>
-        <p>
-          Moist, rich, and loaded with fruits and nuts—our fruit cake is a
-          timeless treat for any occasion!
+        <p className="text-center">
+          Enjoy our delicious fruit cake, baked fresh with the finest
+          ingredients! Packed with rich, flavorful fruits and a perfectly moist
+          texture, it is the ideal treat for any occasion. Take home a slice of
+          sweetness today!
         </p>
       </div>
       <div className="overflow-hidden">
@@ -44,11 +48,12 @@ const Grid = () => {
           className="h-[400px] w-full transition-all duration-300 hover:scale-110 lg:h-[600px]"
         />
       </div>
-      <div className="flex flex-col content-center items-center justify-center gap-4 p-2">
+      <div className="flex flex-col content-center items-center justify-center gap-4 p-6">
         <p className="text-3xl font-bold">CUP CAKES</p>
-        <p>
-          Deliciously moist cupcakes topped with creamy frosting—perfect little
-          bites of happiness for any occasion!
+        <p className="text-center">
+          Satisfy your cravings with our delightful cupcakes! Moist, fluffy, and
+          topped with creamy frosting, they are the perfect sweet treat for any
+          moment. Pick up your favorite flavor today!
         </p>
       </div>
     </div>
