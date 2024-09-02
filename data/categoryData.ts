@@ -24,7 +24,7 @@ export const categories: Categories[] = [
     image: "/category/blackForest/black_forest.jpg",
     price: 550,
     metadescription:
-      "Indulge in our luxurious Black Forest cake—rich chocolate, whipped cream, and cherries in every decadent bite. Perfect for celebrations!",
+      "Indulge in our luxurious Black Forest cake rich chocolate, whipped cream, and cherries in every decadent bite. Perfect for celebrations!",
     description:
       "Elevate your celebrations with our irresistible Black Forest cake, a masterpiece of flavor and elegance. This iconic dessert is crafted with layers of rich, velvety chocolate sponge, lavishly filled with fluffy whipped cream and succulent cherries, then crowned with a generous sprinkling of chocolate shavings and vibrant cherries. Each slice is a perfect harmony of deep chocolate richness and fruity sweetness, creating an unforgettable taste experience. Whether it’s a birthday, anniversary, or just because, our Black Forest cake adds a touch of luxury to any moment, making it truly unforgettable.",
     cakes: [
@@ -115,7 +115,7 @@ export const categories: Categories[] = [
     image: "/category/chocolate/1.jpeg",
     price: 800,
     metadescription:
-      "Indulge in our rich Chocolate cake—decadent layers of moist chocolate sponge and velvety ganache. Perfect for chocolate lovers!",
+      "Indulge in our rich Chocolate cake decadent layers of moist chocolate sponge and velvety ganache. Perfect for chocolate lovers!",
     description:
       "Treat yourself to our luxurious Chocolate cake, a decadent delight that's perfect for any occasion. Crafted with layers of moist, rich chocolate sponge and generously coated with smooth, velvety chocolate ganache, this cake is a dream come true for chocolate enthusiasts. Each bite offers a melt-in-your-mouth experience, with deep, intense chocolate flavor that's both indulgent and satisfying. Whether it’s a birthday, celebration, or simply a craving for something sweet, our Chocolate cake is the ultimate treat, bringing joy and a touch of elegance to any moment.",
     cakes: [
@@ -290,7 +290,7 @@ export const categories: Categories[] = [
     image: "/category/Cup Cakes/cup_cakes.jpg",
     price: 30,
     metadescription:
-      "Enjoy our irresistible cupcakes—moist, flavorful, and topped with rich, creamy frosting. The perfect treat for any occasion!",
+      "Enjoy our irresistible cupcakes moist, flavorful, and topped with rich, creamy frosting. The perfect treat for any occasion!",
     description:
       "Brighten your day with our irresistible cupcakes, each one a little bite of happiness. Baked to perfection, our cupcakes are moist, fluffy, and come in a variety of delicious flavors, all topped with rich, creamy frosting. Whether you’re celebrating a special event or simply treating yourself, our cupcakes add a touch of sweetness and fun to any occasion. From classic vanilla to rich chocolate and beyond, each cupcake is crafted with love and attention to detail, ensuring a delightful taste experience with every bite. Perfect for parties, gifts, or just because—our cupcakes are a must-have for any dessert lover.",
     cakes: [
@@ -312,10 +312,10 @@ export const categories: Categories[] = [
     id: 4,
     name: "Doll Cake",
     slug: "doll-cake",
-    image: "/category/doll_cake/1.jpg",
+    image: "/category/doll_cake/doraemon.png",
     price: 2000,
     metadescription:
-      "Delight in our enchanting Doll Cake—moist cake layers beneath a beautifully decorated doll dress. A magical centerpiece for any celebration!",
+      "Delight in our enchanting Doll Cake moist cake layers beneath a beautifully decorated doll dress. A magical centerpiece for any celebration!",
     description:
       "Celebrate in style with our charming Doll Cake, designed to captivate and delight. This whimsical creation features layers of moist, flavorful cake hidden beneath a stunningly decorated doll dress. Each cake is meticulously crafted to ensure a visually stunning centerpiece that’s as delicious as it is beautiful. Ideal for birthdays and special occasions, our Doll Cake adds a touch of magic and fun to any event, making it a memorable treat for both kids and adults alike. With intricate details and a perfect balance of taste and presentation, it’s sure to make your celebration unforgettable.",
     cakes: [
@@ -340,7 +340,7 @@ export const categories: Categories[] = [
     image: "/category/Fruit Cake/1.jpg",
     price: 950,
     metadescription:
-      "Enjoy our delightful Fruit Cake—moist, fruity, and topped with a touch of elegance. A perfect choice for festive celebrations!",
+      "Enjoy our delightful Fruit Cake: moist, fruity, and topped with a touch of elegance. A perfect choice for festive celebrations!",
     description:
       "Elevate your gatherings with our exquisite Fruit Cake, a delightful blend of moist cake and a medley of succulent fruits. Each slice is bursting with vibrant flavors and topped with a touch of elegance, making it an ideal choice for festive occasions. Crafted with care and a blend of premium ingredients, our Fruit Cake offers a harmonious balance of sweetness and fruitiness, perfect for any celebration. Whether for a holiday feast or a special event, this cake adds a sophisticated and joyful touch to your festivities, ensuring a memorable experience for all.",
     cakes: [
@@ -395,7 +395,7 @@ export const categories: Categories[] = [
     image: "/category/pestries/pastries.jpg",
     price: 60,
     metadescription:
-      "Discover our delectable Pastry Cake—layers of flaky pastry and creamy filling, creating a perfect balance of flavor and texture.",
+      "Discover our delectable Pastry Cake: layers of flaky pastry and creamy filling, creating a perfect balance of flavor and texture.",
     description:
       "Indulge in our delightful Pastry Cake, a masterful blend of flaky pastry layers and rich, creamy filling. Each slice offers a perfect harmony of crispiness and smooth, luscious cream, making it an irresistible treat for any occasion. Crafted with the finest ingredients and meticulous attention to detail, our Pastry Cake adds a touch of sophistication and indulgence to your celebrations. Ideal for gatherings, special events, or as a well-deserved treat, this cake promises a memorable taste experience that’s both elegant and satisfying.",
     cakes: [
@@ -432,7 +432,7 @@ export const categories: Categories[] = [
     image: "/category/whiteForest/white_forest.jpg",
     price: 600,
     metadescription:
-      "Delight in our White Forest cake—light vanilla sponge, whipped cream, and juicy cherries. A luxurious treat for any occasion!",
+      "Delight in our White Forest cake:light vanilla sponge, whipped cream, and juicy cherries. A luxurious treat for any occasion!",
     description:
       "Celebrate in style with our exquisite White Forest cake, a stunning blend of flavors and elegance. This delightful dessert features layers of fluffy vanilla sponge, generously filled with velvety whipped cream and juicy cherries, all topped with delicate white chocolate shavings and more cherries. The combination of light, airy cake and sweet, tangy cherries creates a perfectly balanced taste that's both refreshing and indulgent. Perfect for birthdays, anniversaries, or any special moment, our White Forest cake adds a touch of sophistication and sweetness to your celebrations, making every occasion memorable.",
     cakes: [
@@ -481,7 +481,7 @@ export const categories: Categories[] = [
     image: "/category/Premium Cakes/1.jpeg",
     price: 1000,
     metadescription:
-      "Savor our Premium Cake—luxuriously layered with exquisite flavors and a rich, decadent finish. A sophisticated choice for any special occasion!",
+      "Savor our Premium Cake:luxuriously layered with exquisite flavors and a rich, decadent finish. A sophisticated choice for any special occasion!",
     description:
       "Experience the height of indulgence with our Premium Cake, designed to impress and delight. This elegant creation features layers of the finest ingredients, masterfully combined to offer a rich, decadent flavor and a smooth, velvety texture. Perfect for celebrating milestones or adding a touch of luxury to any event, our Premium Cake stands out with its sophisticated taste and beautiful presentation. Crafted with precision and care, it ensures a memorable and sumptuous experience, making every occasion truly special.",
     cakes: [
@@ -807,7 +807,7 @@ export const categories: Categories[] = [
     image: "/category/red valvet/3.jpeg",
     price: 900,
     metadescription:
-      "Delight in our Red Velvet Cake—velvety layers of rich, red sponge and creamy frosting. A stunning treat for any celebration!",
+      "Delight in our Red Velvet Cake: velvety layers of rich, red sponge and creamy frosting. A stunning treat for any celebration!",
     description:
       "Immerse yourself in the elegance of our Red Velvet Cake, a showstopper that combines rich, velvety red sponge with a smooth, creamy frosting. Each layer is baked to perfection, offering a luxurious texture and a subtly tangy flavor that’s simply irresistible. Perfect for birthdays, anniversaries, or any special occasion, this cake not only looks stunning but tastes divine. With its striking color and indulgent taste, our Red Velvet Cake adds a touch of sophistication and joy to every celebration.",
     cakes: [

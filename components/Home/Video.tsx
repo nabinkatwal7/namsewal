@@ -10,6 +10,7 @@ const HeroSection = () => {
         autoPlay
         loop
         muted
+        playsInline
       />
       <div className="relative z-10 text-center text-white">
         <h1 className="herofont mb-4 text-5xl font-bold md:text-7xl">
@@ -20,7 +21,7 @@ const HeroSection = () => {
           href="/contact"
           className="rounded bg-[#603F26] px-6 py-3 font-bold text-white"
         >
-          Get Yours
+          Bake With Us
         </Link>
       </div>
     </div>

@@ -24,7 +24,7 @@ export const links = [
 const Header = () => {
   return (
     <>
-      <div className="sticky top-0 z-50 hidden items-center justify-between bg-white/75 px-4 py-1 text-black shadow-md backdrop-blur-lg lg:flex">
+      <div className="sticky top-0 z-50 hidden items-center justify-between bg-black/75 px-4 py-1 text-white shadow-md backdrop-blur-lg lg:flex">
         <Image
           src="/assets/logo.jpg"
           alt="namsewal bakery"
