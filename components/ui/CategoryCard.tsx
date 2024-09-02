@@ -10,8 +10,8 @@ const CategoryCard = ({ data }: { data: Categories }) => {
       href={`/${data.slug}`}
       className="flex flex-col gap-2 rounded-lg border p-4"
     >
-      <div className="flex flex-row gap-2 border-b py-2">
-        <div className="overflow-hidden">
+      <div className="flex flex-row items-center gap-2 border-b py-2">
+        <div className="min-w-32 overflow-hidden">
           <Image
             src={data.image}
             alt={data.name}

@@ -9,11 +9,11 @@ const DetailPage = ({ params }: { params: { slug: string } }) => {
 
   return (
     <div className="flex flex-col gap-4 px-4 py-8">
-      <div>
+      <div className="flex flex-col gap-4 p-4 lg:px-16">
         <p className="text-center text-5xl font-bold">{data?.name}</p>
         <p className="text-center">{data?.description}</p>
       </div>
-      <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5">
+      <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
         {data?.cakes?.map((cake) => (
           <div
             className="flex flex-col gap-2 rounded-lg border p-4 shadow-lg"
@@ -31,15 +31,19 @@ const DetailPage = ({ params }: { params: { slug: string } }) => {
             <p className="text-lg">{cake.name}</p>
             <div className="flex flex-row items-center justify-between gap-2">
               <div className="flex flex-col">
-                <p>NRS {cake.price} per pound</p>
+                <p>
+                  NRS {cake.price}{" "}
+                  {params.slug === "cup-cakes" ? "per piece" : "per pound"}
+                </p>
                 <p className="text-xs italic text-gray-500">
-                  +NRS 300 for additional customizations
+                  {params.slug !== "cup-cakes" &&
+                    "+NRS 300 for additional customizations"}
                 </p>
               </div>
               <Link
                 target={"_blank"}
                 href={"https://www.facebook.com/namsewalbakery"}
-                className="flex flex-row items-center gap-2 rounded-lg px-2 py-1 transition-all duration-300 hover:bg-black hover:text-white"
+                className="flex flex-row items-center gap-2 text-nowrap rounded-lg px-2 py-1 transition-all duration-300 hover:bg-black hover:text-white"
               >
                 <FaCartShopping />
                 Buy Now
