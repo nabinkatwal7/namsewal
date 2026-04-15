@@ -7,7 +7,11 @@ const Carousel = () => {
   const images = ["/assets/slideshow-v1.jpg", "/assets/slideshow-v2.jpg"];
 
   return (
-    <ImagesSlider className="h-[500px] lg:h-screen" images={images}>
+    <ImagesSlider
+      className="h-[420px] overflow-hidden rounded-3xl border border-[#efd6bf] shadow-[0_20px_50px_rgba(85,49,28,0.24)] md:h-[520px]"
+      images={images}
+      overlayClassName="bg-gradient-to-r from-[#2f1a11]/70 via-[#4a2a1b]/40 to-transparent"
+    >
       <motion.div
         initial={{
           opacity: 0,
@@ -20,20 +24,15 @@ const Carousel = () => {
         transition={{
           duration: 0.6,
         }}
-        className="z-10 flex flex-col items-center justify-center"
+        className="z-10 flex max-w-3xl flex-col items-center justify-center px-4"
       >
-        <motion.p className="bg-gradient-to-b from-neutral-50 to-neutral-400 bg-clip-text py-4 text-center text-xl font-bold text-transparent md:text-6xl">
-          Amazing Cakes
+        <motion.p className="bg-gradient-to-b from-[#fff2e3] to-[#f4c89a] bg-clip-text py-2 text-center text-3xl font-bold text-transparent md:text-6xl">
+          Celebration-Ready Cakes
         </motion.p>
-        <motion.p className="bg-gradient-to-b from-neutral-50 to-neutral-400 bg-clip-text py-4 text-center text-xl font-bold text-transparent md:text-3xl">
-          Freshly baked delights made with love! Indulge in our artisanal
-          breads, cakes, and pastries—crafted daily to bring you the perfect
-          blend of flavor and joy.
+        <motion.p className="py-4 text-center text-base font-medium leading-7 text-[#f9e5d2] md:text-xl">
+          Elegant designs, rich flavors, and handcrafted quality for birthdays,
+          weddings, and every unforgettable moment.
         </motion.p>
-        {/* <button className="relative mx-auto mt-4 rounded-full border border-emerald-500/20 bg-emerald-300/10 px-4 py-2 text-center text-white backdrop-blur-sm">
-          <span>Buy now →</span>
-          <div className="absolute inset-x-0  -bottom-px mx-auto h-px w-3/4 bg-gradient-to-r from-transparent via-emerald-500 to-transparent" />
-        </button> */}
       </motion.div>
     </ImagesSlider>
   );

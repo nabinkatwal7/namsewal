@@ -14,7 +14,7 @@
 
 @font-face {
   font-family: "herofont";
-  src: url('/fonts/font.ttf') format('truetype');
+  src: url("/fonts/font.ttf") format("truetype");
 }
 
 .ambit {
@@ -30,5 +30,35 @@
 }
 
 body {
-  font-family: "lato";
+  font-family: "lato", sans-serif;
+  background: radial-gradient(
+    circle at top,
+    #fff8f2 0%,
+    #fff5ec 35%,
+    #fff1e4 100%
+  );
+  color: #2f1f17;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #c48353 #f7e9dc;
+}
+
+*::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #f7e9dc;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: #c48353;
+  border-radius: 999px;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background: #9f643b;
 }
